@@ -1,8 +1,8 @@
 Paste the follwoing commands in TCL console in VIVADO to run simulation
 
-set_property -name {xsim.simulate.xsim.more_options} -value {} -objects [get_filesets sim_1]//
-set_property -name {xsim.elaborate.more_options} -value {-uvm_testname my_case0} -objects [get_filesets sim_1]//
-run -all//
+1) set_property -name {xsim.simulate.xsim.more_options} -value {} -objects [get_filesets sim_1]//
+2) set_property -name {xsim.elaborate.more_options} -value {-uvm_testname my_case0} -objects [get_filesets sim_1]//
+3) run -all//
 
 In place of my_case0-
 
